@@ -1,0 +1,354 @@
+                                            /* general  */
+html{
+    background-color:white; 
+}
+body{    
+    margin-top:2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid black; 
+    background-color: #dcdbdb; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+header{
+    background-color: #dcdbdb;
+    text-align: center;
+    font-size: large;
+}
+main{
+    background-color: #dcdbdb;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+footer{
+    border: 0.5px solid #4a4949;
+    background-color:#a8a8ae;
+    margin: 1%;
+}
+img{
+    max-width: 100%; 
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+/**********/
+.margende1{
+    margin-left: 1%;
+}
+img.fotoprincipal  {
+    width: 100%; 
+    max-width: 1000%;   
+}
+.centrar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor-imagen {
+    text-align: center;
+    position: relative;
+}
+.texto-superpuesto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1% 2%;
+    text-decoration: none;
+    color: #000;
+    display: none;
+}
+.contenedor-imagen:hover .texto-superpuesto {
+    display: block;
+}
+
+    /* apartado: DATOS RELEVANTES*/
+
+/* titulo */
+h2#info{
+    margin-left: 1%;
+} 
+/* párrafos */ 
+.textoinf{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/****/
+                                            
+ /* Botón superior de cada página para poder acceder a las demás páginas sin tener que volver a la de inicio*/
+.boton {
+    float: right;
+    padding: 5px 10px;
+
+    background-color: #c8cbc8;
+    color: black;
+    text-decoration: none;
+    
+    border: none;
+    border-radius: 40px;
+}
+                                           
+.texto{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/* tabla del indice de los lugares centrada*/
+.tablaLugaresVisitar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* aqui empiezan los estilos aplicados para la información y fotos de los lugares a visitar*/
+/* PRIMERO */
+h3#primerlugar{
+    margin-left:40px;
+}
+img.foto1{
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 90px;
+}
+p.pc{
+    margin-left: 40px;
+    margin-right: 270px;
+    display:flex;
+    flex-direction: column;
+}
+/* SEGUNDO */
+h3#segundolugar{
+    margin-top: 230px;
+}
+img.foto2{ 
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 90px;
+}
+p.bb{
+    margin-left: 270px;
+    margin-right: 50px;
+    line-height: 19px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* TERCERO */
+h3#tercerlugar{
+    margin-top: 70px;
+    margin-left:40px;
+}
+img.foto3{
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 90px;
+}
+p.ts{
+    margin-left: 40px;
+    margin-right: 270px;
+    line-height: 19px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* CUARTO */
+h3#cuartolugar{
+    margin-top: 250px;
+    margin-right:40px;
+}
+img.foto4{
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 90px;
+}
+p.le{
+    margin-left: 260px;
+    margin-right: 30px;
+    line-height: 19px;
+    display:flex;
+    flex-direction: column;
+}
+/* QUINTO */
+h3#quintolugar{
+    margin-top: 170px;
+    margin-left:40px;
+}
+img.foto5{
+    float: right;
+    margin-left: 90px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+p.hp{
+    margin-left: 40px;
+    margin-right: 270px;
+    line-height: 19px;
+    display:flex;
+    flex-direction: column;
+}
+/* SEXTO */
+h3#sextolugar{
+    margin-top: 160px;
+    margin-right:40px;
+}
+img.foto6{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 90px;
+}
+p.mb{
+    margin-left: 260px;
+    margin-right: 30px;
+    line-height: 19px;
+    display:flex;
+    flex-direction: column;
+}
+/* SEPTIMO */
+h3#septimolugar{
+    margin-top: 190px;
+    margin-left:40px;
+}
+img.foto7{
+    float: right;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 40px;
+}
+p.bp{
+    margin-left: 40px;
+    margin-right: 270px;
+    line-height: 19px;
+    display:flex;
+    flex-direction: column;
+}
+/* OCTAVO */
+h3#octavolugar{
+    margin-top: 110px;
+    margin-right:40px;
+}
+img.foto8{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 90px;
+}
+p.tb{
+    margin-left: 260px;
+    margin-right: 30px;
+    line-height: 19px;
+    display:flex;
+    flex-direction: column;
+}
+/* NOVENO */
+h3#novenolugar{
+    margin-top: 120px;
+    margin-left:40px;
+}
+img.foto9{
+    float: right;
+    margin-top: 20px; 
+    margin-left: 90px;
+    margin-right: 40px;
+}
+p.jp{
+    margin-left: 40px;
+    margin-right: 270px;
+    line-height: 19px;
+    display:flex;
+    flex-direction: column;
+}
+/* DECIMO */
+h3#decimolugar{
+    margin-top: 190px;
+    margin-right:40px;
+}
+img.foto10{
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 90px;
+}
+p.ct{
+    margin-left: 260px;
+    margin-right: 30px;
+    line-height: 19px;
+    display:flex;
+    flex-direction: column;
+}
+/**/
+
+
+/* ------------------------------------------ */
+/* color inicial */
+a {
+    text-decoration: none;
+    color: #007bff; 
+}
+
+/* para cambiar el color cuando se pasa el ratón por encima */
+a:hover {
+    color: #92918f; 
+}
+
+/* color que sale al clicar en el enlace */
+a:active {
+    color: #060606; 
+}
+/* ------------------------------------------ */
+.act{
+    border: 2px double #92918f;
+    margin-top:1%;
+    background-color: rgb(226, 243, 255);
+}
+
+.act img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+.btn{
+    color: black;
+    text-align: center;
+    padding: 5px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.h2.texto{
+    margin-left: 10px;
+}
+/******/
+.mainmasespacio{
+    background-color: #dcdbdb;
+    padding: 2%;
+    margin-bottom: 10%;                                         
+}
+.izquierda {
+    float: left;
+    width: 30%;
+}
+h3.c{
+    margin-left: 0%;
+}
+.derecha {
+    float:right;
+    width: 25%;
+}
+.textoC{
+    max-width: 400px; 
+    margin: 0 auto;
+    
+}
+.comida{
+    display:flex;
+    flex-direction: column;
+}
